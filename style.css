@@ -34,15 +34,9 @@ html {
   /* width: 100vh; */
 }
 
-.product-card-info {
-  padding: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.6rem;
-}
 .product-card {
-  width: 50rem;
+  /* width: 50rem; */
+  width: 55rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--white);
@@ -54,38 +48,64 @@ html {
   object-fit: cover;
 }
 
+.product-card-info {
+  padding: 0rem 2.4rem;
+  /* padding: 3rem 2.4rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .product-tag {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 4.4px;
   color: var(--dark-grayish-blue);
   font-size: 1.2rem;
 }
 
 .product-card-title {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   font-family: var(--fraunces-font);
+  color: var(--very-dark-blue);
+  line-height: 1;
 }
 .product-card-paragraph {
   font-size: 1.4rem;
   color: var(--dark-grayish-blue);
+  line-height: 1.5;
 }
 .price-container {
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 
 .offer-price {
   font-size: 3.2rem;
   font-family: var(--fraunces-font);
+  color: var(--dark-cyan);
 }
 .original-price {
   font-size: 1.2rem;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
 }
 .btn {
   width: 100%;
-  padding: 1.2rem 0;
+  padding: 1.4rem 0;
   font-size: 1.4rem;
   font-weight: 700;
   border: none;
   border-radius: 8px;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.bx-cart {
+  font-size: 1.9rem;
 }
