@@ -71,6 +71,7 @@ html {
   letter-spacing: 4.4px;
   color: var(--dark-grayish-blue);
   font-size: 1.2rem;
+  cursor: default;
 }
 
 .product-card-title {
@@ -114,6 +115,10 @@ html {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: hsl(158, 90%, 20%);
 }
 .bx-cart {
   font-size: 1.9rem;
