@@ -129,7 +129,7 @@ html {
     display: flex;
     /* justify-content: center; */
     align-items: baseline;
-    height: auto;
+    /* height: auto; */
     padding: 2.6rem 0;
     /* margin: 0 auto; */
     /* background-color: var(--cream); */
